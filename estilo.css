@@ -1,0 +1,224 @@
+/*pagina Pricipal index*/
+*{
+    padding: 0;
+    margin: 0 ;
+}
+h1{
+    text-align: center ;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+ background-color: aqua;
+ width:100%;
+list-style-type: none;
+text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: turquoise;
+}
+img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+.articulos{
+    width: 80%;
+    border-right: 3px solid black;}
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.menu-secundario {
+    width:20px;
+    margin-top: 60px; 
+
+}
+.menu-secundario a{
+    display:block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+/* Estilo para la sección de proyectos */
+#proyectos {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+/* Estilo para el título  */
+#proyectos h2 {
+    text-align: center;
+    background: #0fc3ca;
+    color: #333;
+
+}
+
+/* Estilo para el texto de proyecto */
+#proyectos p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo para la imagen de proyecto */
+
+#proyectos img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 0;
+    border: square; 
+    margin-top: 20px;
+}
+
+/* Estilo para el video  */
+#proyectos video {
+    width: 20%;
+    margin-top: 20px;
+}
+
+/* Estilo para el enlace en proyecto */
+#proyectos a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+/* Estilos para el formulario de contacto */
+#contacto {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Título del formulario */
+#contacto h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* Estilos para contenido */
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto input[type="number"],
+#contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Estilos para el botón de enviar */
+#contacto button[type="submit"] {
+    background-color: #15a8d8;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+footer a {
+    color: #0fe1de;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para secciones */
+#servicios {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#beneficios {
+    margin-top: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+#servicios, #beneficios {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Estilos para el pie de página */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
